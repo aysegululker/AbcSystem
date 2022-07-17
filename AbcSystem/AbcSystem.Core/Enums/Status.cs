@@ -4,9 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AbcSystem.Core
+namespace AbcSystem.Core.Enums
 {
-    public class Class1
+    public enum Status
     {
+        Active = 0,
+        Deleted = 1,
+        Modified = 2,
     }
 }
